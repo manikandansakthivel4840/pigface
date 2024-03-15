@@ -1,0 +1,108 @@
+
+.main{
+  height:600px;
+  width:600px;
+  margin:auto;
+}
+h1{
+  font-size:xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:blue;
+}
+.face{
+    height:300px;
+    width:300px;
+    background:rgb(255, 192, 243);
+    border-radius:50%;
+    margin:auto;
+    margin-top:-70px;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:80px;
+    width: 300px;
+    margin-left: 145px;
+}
+  .lear{
+    height:100px;
+    width:100px;
+    background:rgb(255, 192, 243);
+    border-radius:50px 50px 0 0;
+  }
+  .rear{
+    height:100px;
+    width:100px;
+    background:rgb(255, 192, 243);
+    border-radius:50px 50px 0 0;
+  }
+  .eyes{
+    height:100px;
+    width:200px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:70px;
+    padding-left:50px;
+  }
+  .leye{
+    height:60px;
+    width:60px;
+    background:black;
+    border-radius: 50%;
+  }
+  .reye{
+    height:60px;
+    width:60px;
+    background:black;
+    border-radius:50%;
+  }
+  .leye1{
+    height:20px;
+    width:20px;
+    background:white;
+    border-radius:50px;
+    margin:20px;
+  }
+  .reye1{
+    height:20px;
+    width:20px;
+    background:white;
+    border-radius:50px;
+    margin:20px;
+  }
+  .nose{
+    width:150px;
+    height:70px;
+    background:red;
+    border-radius:50px;
+    margin:auto;
+  }
+  .nose1{
+    width:100px;
+    height:50px;
+   display:flex;
+   justify-content:space-evenly;
+   border:black;
+   padding-left:25px;
+   padding-top:20px;
+  }
+  .lnose{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background:black;
+    margin-left:3px;
+  }
+  .rnose{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background:black;
+    margin-left:20px;
+  }
+.main:hover .leye1{
+ margin-top:-0.1px;
+}
+.main:hover .reye1{
+  margin-top:-0.1px;
+}
